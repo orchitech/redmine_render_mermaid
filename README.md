@@ -2,6 +2,18 @@
 
 Redmine Render Mermaid plugin.
 
+~~~~
+``` mermaid
+graph LR
+    A[Type a Diagram] -- Save --> B((Have It Rendered))
+    A -- Preview --> B
+    A -- Update Comment --> B
+```
+~~~~
+
+![image](https://user-images.githubusercontent.com/9081731/118893880-7857ea00-b903-11eb-9524-5cf313429ee9.png)
+
+
 ## Features
 
 * Renders mermaid from code blocks marked as `mermaid`. Works with both Textile and Markdown.
