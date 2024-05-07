@@ -26,8 +26,7 @@ To be done:
 
 ## Requirements
 
-* Redmine 4.2
-* Patch from https://redmine.org/issues/35104 or Redmine from [redmine-gfm image](https://hub.docker.com/r/orchitech/redmine-gfm).
+* Redmine 5
 
 ## Testing
 
