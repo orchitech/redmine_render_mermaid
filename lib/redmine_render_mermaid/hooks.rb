@@ -5,7 +5,7 @@ module RedmineRenderMermaid
     PLUGIN = 'redmine_render_mermaid'
 
     def view_layouts_base_html_head(context = {})
-      lib = javascript_path("/plugin_assets/#{PLUGIN}/javascripts/mermaid.min")
+      lib = asset_path("plugin_assets/#{PLUGIN}/mermaid.min.js")
       html = String.new
       html << javascript_tag("redmine_render_mermaid_lib = '#{escape_javascript(lib)}';")
       html << javascript_include_tag('render_mermaid', :plugin => PLUGIN)

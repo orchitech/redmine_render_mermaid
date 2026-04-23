@@ -26,7 +26,7 @@ To be done:
 
 ## Requirements
 
-* Redmine 5
+* Redmine 6
 
 ## Testing
 
